@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* scrollbar 관련 css start */
+.scrollbar {overflow:overlay;}
+.scrollbar::-webkit-scrollbar {width: 10px; height:7px;}
+.scrollbar::-webkit-scrollbar-thumb { background-color: hsla(0, 0%, 42%, 0.29); border-radius: 80px; height:20%;}
+.scrollbar::-webkit-scrollbar-track { background-color: transparent; }
+/* scrollbar 관련 css end */
+
+/* movable div list 관련 css start */
+.movable_container {width:1000px; height:800px; background-color:lightgray;}
+
+.movable_div_title {width:100%; height:5%;}
+
+.movable_div {width:50%; float:left;}
+
+.movable_list {width: 80%; height:670px; overflow:auto; padding: 30px 25px 20px; border-radius: 7px; box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1); background: #fff;}
+
+#movableList_A {float:left; margin-left:5%;}
+#movableList_B {float:right; margin-right:5%;}
+
+.movable_list .movable_item {list-style: none; display: flex; justify-content: space-between; align-items: center; margin-bottom: 11px; padding: 10px 13px; border-radius: 5px; border: 1px solid #ccc; cursor: move; background: #fff;}
+
+.movable_item{transition: all 0.2s ease-out;}
+
+.movable_item .dragging {opacity: 1; transform: scale(1.05); /* 드래그 중 아이템 확대 */}
+/* movable div list 관련 css end */

@@ -4,8 +4,8 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>유연주</title>
-	<link rel="stylesheet" type="text/css" href="css/slider.css" />
+	<title>유연주 slider</title>
+	<link href="<c:url value='/css/slider.css'/>" rel="stylesheet" type="text/css"/>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript">
 

@@ -7,5 +7,6 @@
 </head>
 <body>
 	<a href="/module/slider.do">무한 슬라이드</a>
+	<a href="/module/movableDiv.do">움직이는 div</a>
 </body>
 </html>
